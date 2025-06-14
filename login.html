@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Good Memory</title>
+        <style>
+            body{
+                background-color:rgb(241, 235, 235);
+                
+            }
+            form{
+                width:300px;
+                margin:auto;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                padding: 90px 10px ;
+                
+                
+
+            }
+            h2{
+                text-align: center;
+            }
+           
+     
+            
+             
+            .input-l input:nth-of-type(1){
+                margin-bottom:20px;
+                padding: 15px;
+                border-radius:20px;
+                text-align: center;
+                margin-left:50px ;
+            }
+            .input-l input:nth-of-type(2){
+                margin-bottom:20px;
+                padding: 15px;
+                border-radius:20px;
+                text-align: center;
+                margin-left:50px ;
+            }
+            label[for="forget"]{
+                margin-left: 42px;
+            }
+           
+            
+            button{
+                width:250px;
+                margin:20px;
+                padding:15px;
+                background-color: blue;
+                border:none;
+                border-radius:6px;
+                color: aliceblue;
+                font-size: 20px;
+                cursor: pointer;
+               
+            }
+            button:hover{
+                background-color: rgb(113, 113, 227);
+            }
+            label[for=signup]{
+                margin-left:50px
+            }
+
+        </style>
+    </head>
+    <form action="#" method="post">
+       <h2>Login</h2>
+       <div class="input-l"  required>
+       <input type="text" placeholder="Username" id="username" name="username">
+        <input type="password" placeholder="Password">
+    </div>
+   
+       <input type="checkbox" id="agree" name="agree">
+       <label for="agree">Remember me</label>
+       <label for="forget"> Forget password</label>
+       <a href=""></a>
+       <button type="submit">Login</button>
+       <label for="signup">Don't have an account</label>
+       <a href="">sign up</a>
+       
+
+
+       
+    </form>
+</html>
